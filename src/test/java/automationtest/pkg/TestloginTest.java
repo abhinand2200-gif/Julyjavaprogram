@@ -17,6 +17,7 @@ public class TestloginTest extends TestEnvironmentdetails {
 		System.out.println("total Rows"+rowCount);
 		for (int i = 1; i <= rowCount; i++)
 		{
+			{
 		    String UserName = Exelutlity.getcellvalue(xl, sheet, i, 0);
 		    System.out.println("Username : " + UserName);
 		    String pwd = Exelutlity.getcellvalue(xl, sheet, i, 1);
